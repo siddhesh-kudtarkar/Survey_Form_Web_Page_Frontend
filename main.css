@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+
+body {
+    margin: 0;
+    background: rgb(34,193,195);
+    background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+#main {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+}
+
+#title {
+    font-size: 4vw;
+}
+
+#survey-form {
+    margin: 0 14% 2% 14%;
+    padding: 2%;
+    font-size: 2.3vw;
+    border-radius: 5px;
+    color: white;
+    text-align: left;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+#survey-form label {
+    margin: 3%;
+    font-weight: bold;
+}
+
+#survey-form input[type="text"], #survey-form input[type="number"], #survey-form input[type="email"], #survey-form textarea {
+    margin: 3%;
+    padding: 1.5%;
+    width: 90%;
+    font-size: 2.3vw;
+    border-radius: 5px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+input::placeholder, textarea::placeholder {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    opacity: 0.6;
+}
+
+#survey-form select, #survey-form select option {    
+    margin: 3%;
+    padding: 1.5%;
+    width: 93%;
+    font-size: 2.3vw;
+    border-radius: 5px;
+    background: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: black;
+    font-weight: bold;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+}
+
+#survey-form button[type="submit"] {
+    margin: 3%;
+    padding: 1.5%;
+    width: 93%;
+    font-size: 2.3vw;
+    border-radius: 5px;
+    background-color: rgb(97, 224, 97);
+    color: black;
+}
